@@ -14,7 +14,7 @@ Berikut adalah kurva reflektasi(%) gelombang elektromagnetik yang bersumber dari
 
 ![](https://raw.githubusercontent.com/Muhammad-Yunus/VegetationAnalyzer-Pi/master/img-resource/plot%20vegetation%20reflectance.png)
 
-Karakteristik unik ]ini dapat kita manfaatkan untuk menganalisa level kesehatan tumbuhan secara remote melalui citra yang didapatkan dari kamera inframerah. 
+Karakteristik unik ini dapat kita manfaatkan untuk menganalisa level kesehatan tumbuhan secara remote melalui citra yang didapatkan dari kamera inframerah. 
 
 ### Vegetation Index Formula
 Berikut adalah dua formula yang digunakan untuk menganalisa index kesehatan tumbuhan :
