@@ -6,7 +6,7 @@ Merupakan project analisis vegetasi menggunakan Raspberry Pi dan Kamera NoIR
 - Enhanced Vegetation Index (EVI)
 
 ### Basic Concept
-Vegetasi seperti pohon, rumput, semak dan lainya memiliki respon vegetasi yang sangat khas. Vegetasi yang sehat akan memantulkan banyak cahaya inframerah yang didapatkan dari sinar matahari. Sedangkan warna visible (Merah, hijau dan biru) memiliki pantulan lebih rendah.
+Vegetasi seperti pohon, rumput, semak dan lainya memiliki respon optik yang sangat khas. Vegetasi yang sehat akan memantulkan banyak cahaya inframerah yang didapatkan dari sinar matahari. Sedangkan warna visible (Merah, hijau dan biru) memiliki pantulan lebih rendah.
 
 ![](https://raw.githubusercontent.com/Muhammad-Yunus/VegetationAnalyzer-Pi/master/img-resource/Indice-vegetativo-NDVI.jpg)
 
