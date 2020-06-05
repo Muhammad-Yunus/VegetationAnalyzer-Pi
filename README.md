@@ -65,7 +65,9 @@ imgplot = plt.imshow(NDVI, cmap='jet')
 plt.show()
 ```
 - Result gambar yang dihasilkan,
+
 ![](https://raw.githubusercontent.com/Muhammad-Yunus/VegetationAnalyzer-Pi/master/ndvi-result.png)
 
 - Original NoIR image,
+
 ![](https://raw.githubusercontent.com/Muhammad-Yunus/VegetationAnalyzer-Pi/master/img-20200605-063558.png)
