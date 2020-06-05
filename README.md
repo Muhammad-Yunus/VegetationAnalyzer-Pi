@@ -7,10 +7,10 @@ Merupakan project analisis vegetasi menggunakan Raspberry Pi dan Kamera NoIR
 
 ### Basic Concept
 Vegetasi seperti pohon, rumput, semak dan lainya memiliki respon vegetasi yang sangat khas. Vegetasi yang sehat akan memantulkan banyak cahaya inframerah yang didapatkan dari sinar matahari. Sedangkan warna visible (Merah, hijau dan biru) memiliki pantulan lebih rendah.
-![](https://raw.githubusercontent.com/Muhammad-Yunus/VegetationAnalyzer-Pi/master/Indice-vegetativo-NDVI.jpg)
+![](https://raw.githubusercontent.com/Muhammad-Yunus/VegetationAnalyzer-Pi/master/img-resource/Indice-vegetativo-NDVI.jpg)
 
 Berikut adalah kurva reflektasi(%) gelombang elektromagnetik yang bersumber dari sinar Matahari untuk object vegetasi :
-![](https://raw.githubusercontent.com/Muhammad-Yunus/VegetationAnalyzer-Pi/master/plot%20vegetation%20reflectance.png)
+![](https://raw.githubusercontent.com/Muhammad-Yunus/VegetationAnalyzer-Pi/master/img-resource/plot%20vegetation%20reflectance.png)
 
 Karakteristik unik ]ini dapat kita manfaatkan untuk menganalisa level kesehatan tumbuhan secara remote melalui citra yang didapatkan dari kamera inframerah. 
 
@@ -18,18 +18,18 @@ Karakteristik unik ]ini dapat kita manfaatkan untuk menganalisa level kesehatan 
 Berikut adalah dua formula yang digunakan untuk menganalisa index kesehatan tumbuhan :
 1. Normalized Difference Vegetation Index (NDVI)
 Dihitung dengan cara mencari fraksi selisih reflektasi saluran inframerah  terhadap saluran visible light (red, green, blue), yang umum digunakan adalah saluran merah.
-![](https://raw.githubusercontent.com/Muhammad-Yunus/VegetationAnalyzer-Pi/master/ndvi_example.jpg)
+![](https://raw.githubusercontent.com/Muhammad-Yunus/VegetationAnalyzer-Pi/master/img-resource/ndvi_example.jpg)
 
 
 2. Enhanced Vegetation Index (EVI)
 Merupakan modifikasi dari Formula NDVI dengan menambahkan pengaruh dari saluran biru.
-![](https://raw.githubusercontent.com/Muhammad-Yunus/VegetationAnalyzer-Pi/master/EVI%20formula.png)
+![](https://raw.githubusercontent.com/Muhammad-Yunus/VegetationAnalyzer-Pi/master/img-resource/EVI%20formula.png)
 Koefisien pada formula dapat diadopsi dari penerapan citra MODIS-EVI dimana L=1, C1 = 6, C2 = 7.5, and G = 2.5 merupakan gain factor. Citra MODIS-EVI merupakan citra yang didapatkan dari satelit pengindraan jauh Terra-modis-1B.
 
 
 ### Hardware Implementation
 Untuk mendapatkan citra inframerah, digunakan Raspberry Pi + Kamera NoIR dengan filter Biru.
-![](https://raw.githubusercontent.com/Muhammad-Yunus/VegetationAnalyzer-Pi/master/RPi-NoIR.PNG)
+![](https://raw.githubusercontent.com/Muhammad-Yunus/VegetationAnalyzer-Pi/master/img-resource/RPi-NoIR.PNG)
 
 
 ### Software Implementation
@@ -66,8 +66,8 @@ plt.show()
 ```
 - Result gambar yang dihasilkan,
 
-![](https://raw.githubusercontent.com/Muhammad-Yunus/VegetationAnalyzer-Pi/master/ndvi-result.png)
+![](https://raw.githubusercontent.com/Muhammad-Yunus/VegetationAnalyzer-Pi/master/img-resource/ndvi-result.png)
 
 - Original NoIR image,
 
-![](https://raw.githubusercontent.com/Muhammad-Yunus/VegetationAnalyzer-Pi/master/img-20200605-063558.png)
+![](https://raw.githubusercontent.com/Muhammad-Yunus/VegetationAnalyzer-Pi/master/img-resource/img-20200605-063558.png)
